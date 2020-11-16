@@ -9,7 +9,7 @@ Estado de mis placas de maquinas arcade.
  
 
 ![pantalla inicial](weststry/inicio.jpg)
-!(pcb)(weststry/pcb.jpg)
+![pcb](weststry/pcb.jpg)
 
 Problemas:
 * Sin Sonido: TDA2003 con patillas rotas.
