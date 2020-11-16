@@ -8,7 +8,7 @@ Estado de mis placas de maquinas arcade.
 ### West Story (bootleg of Blood Bros.)
  
 
-![pantalla inicial](weststry/inicio.jpg)
+![pantalla inicial](weststry/inicio.png)
 ![pcb](weststry/pcb.jpg)
 
 Problemas:
