@@ -1,8 +1,8 @@
 # Tumblepop
 
-[inicio](inicio.png)
+![inicio](inicio.png)
 
-[pcb](pcb.jpg)
+![pcb](pcb.jpg)
 
 ## Problemas
 
