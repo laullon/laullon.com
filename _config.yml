@@ -27,7 +27,9 @@ twitter_username: laullon
 github_username:  laullon
 
 # Build settings
-theme: jekyll-theme-so-simple
+remote_theme: mmistakes/so-simple-theme
+plugins:
+  - jekyll-remote-theme
 
 # Collections
 collections:
@@ -37,4 +39,3 @@ collections:
   trenes:
     output: true
     permalink: /:collection/:path/
-
