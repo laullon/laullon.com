@@ -253,15 +253,46 @@ h3 {
 .screenshot-row {
   display: grid;
   gap: 18px;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   margin-top: 34px;
 }
 
-.screenshot-row img {
+.screenshot-row figure {
+  margin: 0;
+}
+
+.screenshot-row img,
+.page-preview img {
   background: #101512;
   border: 8px solid #101512;
   border-radius: 26px;
   box-shadow: 0 12px 32px rgba(31, 46, 39, 0.16);
+}
+
+.screenshot-row figcaption {
+  color: var(--muted);
+  font-size: 0.88rem;
+  font-weight: 700;
+  line-height: 1.35;
+  margin-top: 12px;
+  text-align: center;
+}
+
+.page-preview {
+  margin: 0 auto 36px;
+  max-width: 280px;
+}
+
+.page-preview img {
+  width: 100%;
+}
+
+.page-preview figcaption {
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-top: 12px;
+  text-align: center;
 }
 
 .notice {
@@ -347,9 +378,12 @@ h3 {
     min-height: 420px;
   }
 
-  .feature-grid,
-  .screenshot-row {
+  .feature-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .screenshot-row {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
