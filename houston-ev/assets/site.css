@@ -171,24 +171,14 @@ h3 {
   color: #fff;
 }
 
-.app-store-button {
-  background: #0b0f0c;
-  border-color: #0b0f0c;
-  color: #fff;
-  flex-direction: column;
-  gap: 0;
-  line-height: 1.15;
-  min-width: 210px;
+.app-store-badge {
+  display: inline-flex;
+  line-height: 0;
 }
 
-.app-store-button .button-kicker {
-  font-size: 0.72rem;
-  font-weight: 650;
-}
-
-.app-store-button .button-label {
-  font-size: 1.08rem;
-  font-weight: 850;
+.app-store-badge img {
+  height: auto;
+  width: 180px;
 }
 
 .button.secondary {
@@ -442,8 +432,8 @@ h3 {
     margin-top: 22px;
   }
 
-  .app-store-button {
-    min-width: 100%;
+  .app-store-badge img {
+    width: 170px;
   }
 
   .phone-stack {
