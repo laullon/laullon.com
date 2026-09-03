@@ -199,15 +199,13 @@ h3 {
 }
 
 .phone {
-  background: #101512;
-  border: 10px solid #101512;
-  border-radius: 34px;
+  border-radius: 28px;
   box-shadow: var(--shadow);
   overflow: hidden;
 }
 
 .phone img {
-  border-radius: 24px;
+  border-radius: 28px;
   width: 100%;
 }
 
@@ -264,10 +262,20 @@ h3 {
   border-top: 1px solid var(--line);
 }
 
+.feature-section {
+  background: var(--panel);
+  border-bottom: 1px solid var(--line);
+  border-top: 1px solid var(--line);
+}
+
+.feature-section .feature {
+  background: var(--paper);
+}
+
 .screenshot-row {
   display: grid;
   gap: 18px;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   margin-top: 34px;
 }
 
@@ -277,9 +285,7 @@ h3 {
 
 .screenshot-row img,
 .page-preview img {
-  background: #101512;
-  border: 8px solid #101512;
-  border-radius: 26px;
+  border-radius: 18px;
   box-shadow: 0 12px 32px rgba(31, 46, 39, 0.16);
 }
 
@@ -442,12 +448,11 @@ h3 {
   }
 
   .phone {
-    border-width: 7px;
-    border-radius: 28px;
+    border-radius: 22px;
   }
 
   .phone img {
-    border-radius: 20px;
+    border-radius: 22px;
   }
 
   .feature-grid {
