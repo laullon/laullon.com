@@ -36,6 +36,7 @@ a {
 
 img {
   display: block;
+  height: auto;
   max-width: 100%;
 }
 
@@ -377,6 +378,7 @@ h3 {
 
 .footer-links {
   display: flex;
+  flex-wrap: wrap;
   gap: 16px;
 }
 
